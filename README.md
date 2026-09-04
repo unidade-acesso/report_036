@@ -4,6 +4,8 @@ date: "30/12/2025"                    # Entre as aspas escreve a data de criaç�
 uri: "https://www.cm-caminha.pt"   # Entre as aspas escreve o domínio do website
 owner: "Câmara Municipal de Caminha"         # Entre as aspas escrever o nome do owner do website
 seal: "Ouro"                          # Entre as aspas escreve Bronze, Prata ou Ouro
+validity: "04/09/2026 a 04/09/2027" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
+status: "Concluído" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
 ---
 
 # {{ page.website }}
@@ -20,7 +22,7 @@ Consulte aqui a última atualização: [Relatório do {{ page.website }}](report
 <details>
   <summary>Histórico de atualizações</summary>
   <ul aria-label="lista de relatórios já efetuados">
-    <li><a href="ddmmaaaa_report.html">(dd/mm/aaaa). Relatório do {{ page.website }}</a></li>
+    <li><a href="04092026_report.html">(04/09/2026). Relatório do {{ page.website }}</a></li>
     <li><a href="/report_012/25022026_report.html">(25/02/2026). Relatório do {{ page.website }}</a></li>
   </ul>
 </details>
